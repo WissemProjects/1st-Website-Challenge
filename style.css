@@ -5,7 +5,15 @@ body {
     margin:0;
     font-size:1.125rem;
 }
+.background-image-container {
+    width:100%;
+    background-size: calc(100vw + 20%); /* Adjust multiplier as needed */
+    background-repeat: no-repeat;
+    background-image: url(images/bg-header-desktop.png);
+    padding:0 0.25em 1em;
+}
 .container { 
+   
     margin:0 auto;
     display:flex;
     flex-direction: column;
